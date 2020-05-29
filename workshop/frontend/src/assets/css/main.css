@@ -1,0 +1,23 @@
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: medium;
+}
+.content-layout {
+  margin: 10px 15px;
+}
+
+.content {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.header {
+  background-color: #a9d5fd;
+  background-image: linear-gradient(to bottom, #c9cdce, #e3f3f1);
+}
+
+.line-divider {
+  color: #d3d3d38e;
+  margin: 10px 15px;
+}

@@ -1,0 +1,36 @@
+.login-form {
+  max-width: 300px;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button {
+  width: 100%;
+  background-image: linear-gradient(to top, #1890ff, #7bc7bd);
+}
+
+.login-form-button:hover {
+  background-image: linear-gradient(to bottom, #54ad59, #87cc8b);
+  color: rgb(116, 65, 65);
+  border: none;
+}
+
+.login-div {
+  padding-top: 100px;
+}
+.login-card {
+  max-width: 400px;
+  margin: auto;
+  font-size: 50px;
+  padding: 50px;
+  border: 2px solid rgba(128, 128, 128, 0.404);
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 5px;
+  background-color: #a9d4fd2f;
+  background-image: linear-gradient(to right, #6e9c985b, #97b9b654, #bfdad749);
+}
+.remember-me {
+  color: black;
+}

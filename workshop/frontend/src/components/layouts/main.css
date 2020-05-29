@@ -1,0 +1,118 @@
+.sidebar-title {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.ant-layout-sider {
+  background-image: linear-gradient(to right, #8fbeeb, #9ae7dd85, #c8e6e9);
+  /* background-color: transparent; */
+  background-image: linear-gradient(to bottom, #188fff54, #7bc7bd6b),
+    url("/static/img/sidebar2.jpg");
+  background-color: #7bc7bd;
+  background-size: cover;
+  font-size: 2em;
+  position: relative;
+}
+
+.ant-menu {
+  /* background-color: #7bc7bd; */
+  background-color: transparent;
+  /* background-image: linear-gradient(to right, #1890ff, #7bc7bd, #c8e6e9); */
+  font-size: 1em !important;
+}
+
+.ant-menu a {
+  color: black !important;
+}
+
+span {
+  font-size: 13px;
+  font-family: Sans-Serif;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.ant-menu-dark {
+  color: black !important;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+.ant-menu-sub.ant-menu-inline {
+  background-color: #87c1d315 !important;
+}
+
+.ant-menu-sub.ant-menu-vertical {
+  background-color: #87c1d3 !important;
+  text-align: center;
+  background-image: linear-gradient(to right, #1890ff, #7bc7bd);
+}
+
+.ant-menu-sub.ant-menu-inline {
+  padding: 10px;
+  width: 85%;
+  /* width: fit-content; */
+  margin: 5px 12px 5px 12px;
+  left: 0;
+  border-radius: 4px;
+}
+
+.ant-menu-item {
+  color: black !important;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: Sans-Serif;
+  font-weight: bold;
+}
+
+.ant-layout-sider-trigger {
+  background-color: #1890ff;
+}
+.toggle {
+  position: absolute;
+  bottom: 0;
+  background-color: #1890ff;
+  background-image: linear-gradient(to top, #1890ff, #7bc7bd);
+  width: 100%;
+  color: #000000;
+  text-align: center;
+}
+.logo {
+  margin: 0;
+}
+
+/* User Menu css */
+
+.user-menu {
+  position: absolute;
+  font-size: 2rem;
+  right: 10px;
+  top: 0px;
+  z-index: +1;
+}
+.user-menu-items {
+  min-width: 200px;
+  border-radius: 10px;
+  background-color: #e7e4f0;
+  background-image: linear-gradient(to bottom, #c9cdce, #e3f3f1);
+}
+.user-name {
+  color: #0f0f0f;
+  margin: 0 auto;
+  text-align: center;
+}
+.user-menu-item {
+  margin-right: 4px;
+  margin-top: 0px !important ;
+}
+.ant-avatar {
+  height: 34px;
+  width: 36px;
+}
+
+.ant-avatar.ant-avatar-icon {
+  font-size: 23px;
+}
+
+/* End of user menu */

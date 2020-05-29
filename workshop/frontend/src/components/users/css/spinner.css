@@ -1,0 +1,10 @@
+.spinner {
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 100px;
+  margin: 20px 0;
+}
+.ant-spin-text {
+  font-size: 30px;
+}
